@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import gamehub from "../../assets/game-console_2780137.png";
 import ProjectCard from "../../common/ProjectCard";
 import dsa from "../../assets/hackathon_17336015.png";
+import healio from "../../assets/healio.svg";
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
@@ -18,6 +19,12 @@ const Projects = () => {
           link="https://dsaproblemtracker.netlify.app/"
           h3="DSA Tracker"
           p="Coding Progress Tracker"
+        />
+        <ProjectCard
+          src={healio}
+          link="https://patient-management-healio.vercel.app/"
+          h3="Healio"
+          p="Patient Management System"
         />
       </div>
     </section>
